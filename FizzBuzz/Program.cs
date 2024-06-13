@@ -1,6 +1,8 @@
 ﻿using System.Threading.Channels;
 
-for (int i = 0; i < 100; i++)
+var range = 100;
+
+for (int i = 0; i < range; i++)
 {
     if (i % 3 == 0 && i % 5 == 0)
     {
